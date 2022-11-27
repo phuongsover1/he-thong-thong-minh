@@ -342,3 +342,53 @@ footer {
 	color: #a09e9e;
 
 }
+
+/* REGISTER PAGE */
+.register-section {
+	padding-top:12rem;
+	text-align: center;
+	background-color: #e7e7e7;
+	min-height: 110vh;
+}
+.register-section .accounts-container {
+	width: 500px;
+	margin: 2.5rem auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.register-section .another-account {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 1rem;
+	padding-right: 4.5rem;
+	
+	border: 1px solid #1b1b1b;
+	background-color: #fff;
+	
+}
+
+.register-section .another-account:hover {
+	color:#999;
+	border: 1px solid #999;
+}
+
+.register-section .accounts-container .content {
+	font-size: 1.3rem;
+}
+
+.register-section .another-account .icon{
+padding-right: 1.5rem;
+}
+.register-section .another-account .icon img{
+	width: 24px;
+	height: 24px;
+
+}
+.register-section .another-account .content {
+	font-size: 1.1rem;
+	text-transform:uppercase;
+}
